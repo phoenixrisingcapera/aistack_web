@@ -3,6 +3,10 @@ import { caseStudiesBySlug } from '$lib/content/caseStudies';
 import { services, servicesBySlug } from '$lib/content/services';
 import { servicesEs } from '$lib/content/services-es';
 
+export function entries() {
+  return services.map((service) => ({ slug: service.slug }));
+}
+
 export function load({ params }) {
   const service = servicesBySlug[params.slug];
   const localized = servicesEs[params.slug];
