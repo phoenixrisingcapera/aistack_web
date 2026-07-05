@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#050711"/>
+  <circle cx="260" cy="110" r="220" fill="#5AC8FA" fill-opacity=".14"/>
+  <circle cx="970" cy="160" r="240" fill="#8B7DFF" fill-opacity=".14"/>
+  <rect x="80" y="72" width="1040" height="486" rx="36" fill="#0B1222" stroke="#FFFFFF" stroke-opacity=".10"/>
+  <text x="120" y="210" fill="#F5F7FA" font-family="Inter, Arial, sans-serif" font-size="34" letter-spacing="10">AISTACK</text>
+  <text x="120" y="304" fill="#F5F7FA" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="700">Build AI systems your</text>
+  <text x="120" y="384" fill="#F5F7FA" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="700">company can actually use.</text>
+  <text x="120" y="468" fill="#A7B0C0" font-family="Inter, Arial, sans-serif" font-size="30">AI products, workflows, guardrails, document intelligence, and cost control.</text>
+</svg>

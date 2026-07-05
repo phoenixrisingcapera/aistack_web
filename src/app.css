@@ -1,0 +1,74 @@
+@import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+  --bg: #050711;
+  --bg-soft: #0a1020;
+  --panel: rgba(11, 18, 34, 0.72);
+  --panel-strong: rgba(14, 23, 44, 0.88);
+  --text: #f5f7fa;
+  --muted: #a7b0c0;
+  --line: rgba(167, 176, 192, 0.16);
+  --blue: #5ac8fa;
+  --violet: #8b7dff;
+}
+
+html {
+  background:
+    radial-gradient(circle at top, rgba(90, 200, 250, 0.14), transparent 30%),
+    radial-gradient(circle at 80% 20%, rgba(139, 125, 255, 0.14), transparent 25%),
+    linear-gradient(180deg, #050711 0%, #080c18 45%, #050711 100%);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: transparent;
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.glass-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: 0 18px 60px rgba(2, 6, 23, 0.45);
+  backdrop-filter: blur(18px);
+}
+
+.panel-strong {
+  background: var(--panel-strong);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-6 py-16 md:px-8 md:py-24;
+}
+
+.eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.28em] text-cyan-200/80;
+}
+
+.section-title {
+  @apply mt-4 max-w-3xl text-3xl font-semibold tracking-tight text-white md:text-5xl;
+}
+
+.section-copy {
+  @apply mt-5 max-w-3xl text-base leading-7 text-slate-300 md:text-lg;
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(167, 176, 192, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(167, 176, 192, 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.hero-orb {
+  background:
+    radial-gradient(circle at 30% 30%, rgba(90, 200, 250, 0.55), transparent 34%),
+    radial-gradient(circle at 70% 35%, rgba(139, 125, 255, 0.5), transparent 32%),
+    linear-gradient(180deg, rgba(14, 23, 44, 0.92), rgba(8, 12, 24, 0.82));
+}
