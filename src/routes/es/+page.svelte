@@ -23,7 +23,7 @@
 
 <PageShell content={content} title="Estudio de producto IA" description={content.hero.body}>
   <Hero {content} />
-  <LiveWorkStrip title={content.liveNowTitle} intro={content.liveNowIntro} items={content.caseStudies} />
+  <LiveWorkStrip title={content.liveNowTitle} intro={content.liveNowIntro} items={content.caseStudies} {content} />
 
   <section class="section-shell">
     <SectionHeading eyebrow="Problema" title={content.problemTitle} copy={content.problemIntro} />
