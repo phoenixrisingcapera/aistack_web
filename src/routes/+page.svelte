@@ -62,7 +62,7 @@
     <PackagesGrid items={content.platformPackages} />
   </section>
 
-  <FaqSection title={content.faqTitle} intro={content.faqIntro} items={content.faqs} />
+  <FaqSection title={content.faqTitle} intro={content.faqIntro} items={content.faqs} {content} />
   <AboutTrust {content} />
   <CtaBand {content} />
 </PageShell>
